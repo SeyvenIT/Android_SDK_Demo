@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="ttlock.demo.MainActivity">
+        tools:context=".MainActivity">
+
         <Button
+            android:id="@+id/btn_lock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_lock"
-            android:textAllCaps="false"
-            android:text="@string/lock_about"/>
+            android:text="@string/lock_about"
+            android:textAllCaps="false" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,11 +37,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn_firmware"
             android:text="@string/upgrade_about"/>
+
         <Button
+            android:id="@+id/btn_wireless_keyboard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_wireless_keyboard"
-            android:textAllCaps="false"
-            android:text="@string/wirelesskeyboard"/>
+            android:text="@string/wirelesskeyboard"
+            android:textAllCaps="false" />
     </LinearLayout>
 </layout>

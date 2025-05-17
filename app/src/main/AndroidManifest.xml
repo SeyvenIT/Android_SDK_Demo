@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ttlock.demo">
+    >
 
     <uses-permission android:name="android.permission.BLUETOOTH"
         android:maxSdkVersion="30"/>
@@ -77,8 +77,8 @@ Needed only if your app looks for Bluetooth devices.
         <activity android:name=".gateway.InitGatewayActivity" />
         <activity android:name=".gateway.GatewayDfuActivity" />
         <activity android:name=".gateway.UserGatewayActivity" />
-        <activity android:name=".IndexActivity"></activity>
-        <activity android:name=".wireless_keyboard.WirelessKeyboardActivity"></activity>
+        <activity android:name=".IndexActivity"/>
+        <activity android:name=".wireless_keyboard.WirelessKeyboardActivity" />
 
     </application>
 

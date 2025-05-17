@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ttlock.demo.firmwareupdate.FirmwareUpdateActivity"
+    tools:context=".firmwareupdate.FirmwareUpdateActivity"
     android:visibility="gone">
 
     <Button
